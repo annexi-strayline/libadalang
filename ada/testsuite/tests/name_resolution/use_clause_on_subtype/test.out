@@ -11,7 +11,7 @@ Expr: <Id "X" main.adb:7:4-7:5>
   references: <DefiningName main.adb:5:4-5:5>
   type:       <SubtypeDecl ["R"] pkg.ads:7:4-7:19>
 Expr: <BinOp main.adb:7:9-7:14>
-  type:       <TypeDecl ["T"] pkg.ads:3:4-3:26>
+  type:       <SubtypeDecl ["R"] pkg.ads:7:4-7:19>
 Expr: <Id "X" main.adb:7:9-7:10>
   references: <DefiningName main.adb:5:4-5:5>
   type:       <SubtypeDecl ["R"] pkg.ads:7:4-7:19>

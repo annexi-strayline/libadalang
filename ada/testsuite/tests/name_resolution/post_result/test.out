@@ -34,7 +34,7 @@ Expr: <OpEq "=" test_result_attr.adb:3:34-3:35>
   type:       None
 Expr: <Int test_result_attr.adb:3:36-3:38>
   references: None
-  type:       <TypeDecl ["Universal_Int_Type_"] __standard:119:3-119:45>
+  type:       <TypeDecl ["Integer"] __standard:4:3-4:54>
 
 Resolving xrefs for node <SubpSpec test_result_attr.adb:5:4-5:34>
 *****************************************************************

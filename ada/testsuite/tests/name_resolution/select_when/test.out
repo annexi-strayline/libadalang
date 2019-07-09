@@ -21,13 +21,13 @@ Expr: <BinOp selectwhen.adb:11:40-11:51>
   type:       <SubtypeDecl ["Positive"] __standard:6:3-6:57>
 Expr: <Int selectwhen.adb:11:40-11:41>
   references: None
-  type:       <TypeDecl ["Universal_Int_Type_"] __standard:119:3-119:45>
+  type:       <SubtypeDecl ["Positive"] __standard:6:3-6:57>
 Expr: <OpDoubleDot ".." selectwhen.adb:11:42-11:44>
   references: None
   type:       None
 Expr: <Id "Q_Size" selectwhen.adb:11:45-11:51>
   references: <DefiningName selectwhen.adb:10:6-10:12>
-  type:       <TypeDecl ["Integer"] __standard:4:3-4:54>
+  type:       <SubtypeDecl ["Positive"] __standard:6:3-6:57>
 
 Resolving xrefs for node <ObjectDecl ["Length"] selectwhen.adb:12:6-12:46>
 **************************************************************************
@@ -39,13 +39,13 @@ Expr: <BinOp selectwhen.adb:12:29-12:40>
   type:       <SubtypeDecl ["Natural"] __standard:5:3-5:57>
 Expr: <Int selectwhen.adb:12:29-12:30>
   references: None
-  type:       <TypeDecl ["Universal_Int_Type_"] __standard:119:3-119:45>
+  type:       <SubtypeDecl ["Natural"] __standard:5:3-5:57>
 Expr: <OpDoubleDot ".." selectwhen.adb:12:31-12:33>
   references: None
   type:       None
 Expr: <Id "Q_Size" selectwhen.adb:12:34-12:40>
   references: <DefiningName selectwhen.adb:10:6-10:12>
-  type:       <TypeDecl ["Integer"] __standard:4:3-4:54>
+  type:       <SubtypeDecl ["Natural"] __standard:5:3-5:57>
 Expr: <Int selectwhen.adb:12:44-12:45>
   references: None
   type:       <TypeDecl ["Universal_Int_Type_"] __standard:119:3-119:45>
@@ -91,7 +91,7 @@ Expr: <OpLt "<" selectwhen.adb:18:24-18:25>
   type:       None
 Expr: <Id "Q_Size" selectwhen.adb:18:26-18:32>
   references: <DefiningName selectwhen.adb:10:6-10:12>
-  type:       <TypeDecl ["Integer"] __standard:4:3-4:54>
+  type:       <SubtypeDecl ["Natural"] __standard:5:3-5:57>
 Expr: <RelationOp selectwhen.adb:25:17-25:27>
   type:       <TypeDecl ["Boolean"] __standard:3:3-3:33>
 Expr: <Id "Length" selectwhen.adb:25:17-25:23>
@@ -102,7 +102,7 @@ Expr: <OpGt ">" selectwhen.adb:25:24-25:25>
   type:       None
 Expr: <Int selectwhen.adb:25:26-25:27>
   references: None
-  type:       <TypeDecl ["Universal_Int_Type_"] __standard:119:3-119:45>
+  type:       <SubtypeDecl ["Natural"] __standard:5:3-5:57>
 
 Resolving xrefs for node <AcceptStmtWithStmts selectwhen.adb:19:15-21:26>
 *************************************************************************
@@ -154,7 +154,7 @@ Expr: <Id "Tail" selectwhen.adb:22:15-22:19>
   references: <DefiningName selectwhen.adb:13:12-13:16>
   type:       <SubtypeDecl ["Q_Range"] selectwhen.adb:11:6-11:52>
 Expr: <BinOp selectwhen.adb:22:23-22:42>
-  type:       <TypeDecl ["Integer"] __standard:4:3-4:54>
+  type:       <SubtypeDecl ["Q_Range"] selectwhen.adb:11:6-11:52>
 Expr: <BinOp selectwhen.adb:22:23-22:38>
   type:       <TypeDecl ["Integer"] __standard:4:3-4:54>
 Expr: <Id "Tail" selectwhen.adb:22:23-22:27>
@@ -180,7 +180,7 @@ Expr: <Id "Length" selectwhen.adb:23:15-23:21>
   references: <DefiningName selectwhen.adb:12:6-12:12>
   type:       <SubtypeDecl ["Natural"] __standard:5:3-5:57>
 Expr: <BinOp selectwhen.adb:23:25-23:35>
-  type:       <TypeDecl ["Integer"] __standard:4:3-4:54>
+  type:       <SubtypeDecl ["Natural"] __standard:5:3-5:57>
 Expr: <Id "Length" selectwhen.adb:23:25-23:31>
   references: <DefiningName selectwhen.adb:12:6-12:12>
   type:       <SubtypeDecl ["Natural"] __standard:5:3-5:57>
@@ -241,7 +241,7 @@ Expr: <Id "Head" selectwhen.adb:29:15-29:19>
   references: <DefiningName selectwhen.adb:13:6-13:10>
   type:       <SubtypeDecl ["Q_Range"] selectwhen.adb:11:6-11:52>
 Expr: <BinOp selectwhen.adb:29:23-29:42>
-  type:       <TypeDecl ["Integer"] __standard:4:3-4:54>
+  type:       <SubtypeDecl ["Q_Range"] selectwhen.adb:11:6-11:52>
 Expr: <BinOp selectwhen.adb:29:23-29:38>
   type:       <TypeDecl ["Integer"] __standard:4:3-4:54>
 Expr: <Id "Head" selectwhen.adb:29:23-29:27>
@@ -267,7 +267,7 @@ Expr: <Id "Length" selectwhen.adb:30:15-30:21>
   references: <DefiningName selectwhen.adb:12:6-12:12>
   type:       <SubtypeDecl ["Natural"] __standard:5:3-5:57>
 Expr: <BinOp selectwhen.adb:30:25-30:35>
-  type:       <TypeDecl ["Integer"] __standard:4:3-4:54>
+  type:       <SubtypeDecl ["Natural"] __standard:5:3-5:57>
 Expr: <Id "Length" selectwhen.adb:30:25-30:31>
   references: <DefiningName selectwhen.adb:12:6-12:12>
   type:       <SubtypeDecl ["Natural"] __standard:5:3-5:57>
